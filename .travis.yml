@@ -1,5 +1,7 @@
 language: ruby
 before_script:
-  - postgresql -e 'create database mramirol_test;'
+  - psql -c 'create database mramirol_test;' -U postgres
 rvm:
  - 2.2.3
+services:
+ - postgresql
