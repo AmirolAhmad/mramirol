@@ -1,2 +1,2 @@
 ## AmirolAhmad's Official Blog
-[![Build Status](https://travis-ci.org/AmirolAhmad/mramirol.svg)](https://travis-ci.org/AmirolAhmad/mramirol)
+[![Build Status](https://travis-ci.org/AmirolAhmad/mramirol.svg)](https://travis-ci.org/AmirolAhmad/mramirol) [![Code Climate](https://codeclimate.com/github/AmirolAhmad/mramirol/badges/gpa.svg)](https://codeclimate.com/github/AmirolAhmad/mramirol) [![Test Coverage](https://codeclimate.com/github/AmirolAhmad/mramirol/badges/coverage.svg)](https://codeclimate.com/github/AmirolAhmad/mramirol/coverage)
