@@ -7,4 +7,10 @@ Rails.application.routes.draw do
     get '/register' => 'devise/registrations#new'
     get '/settings' => 'devise/registrations#edit'
   end
+
+  namespace :admin, path: '/master' do
+    get "/" => "dashboards#index", as: 'master'
+  end
+
+  get "/dashboard" => 'dashboards#index'
 end
