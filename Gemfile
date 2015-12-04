@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'config'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
@@ -25,8 +26,10 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+	gem 'letter_opener'
 end
 
 group :test do
-  gem "codeclimate-test-reporter", require: nil
+  gem 'codeclimate-test-reporter', require: nil
+  gem 'database_cleaner'
 end
