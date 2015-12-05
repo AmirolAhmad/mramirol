@@ -13,7 +13,7 @@ test:
 
 production:
   <<: *default
-  host: <%= ENV['RDS_HOST'] %>
-  database: <%= ENV['RDS_DATABASE'] %>
+  host: mramirol.cza0fl5qataj.ap-southeast-1.rds.amazonaws.com
+  database: amirol_production
   username: <%= ENV['RDS_USERNAME'] %>
   password: <%= ENV['RDS_PASSWORD'] %>
