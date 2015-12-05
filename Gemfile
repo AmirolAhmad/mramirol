@@ -27,6 +27,13 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 	gem 'letter_opener'
+  gem 'quiet_assets'
+  gem 'capistrano', '~> 3.4.0'
+  gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rbenv', '~> 2.0'
+  gem 'capistrano-gitflow', github: 'amirolahmad/capistrano-gitflow'
+  gem 'capistrano-faster-assets', '~> 1.0'
 end
 
 group :test do
