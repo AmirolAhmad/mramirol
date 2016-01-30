@@ -1,10 +1,12 @@
-<h1>Pages#index</h1>
-<p><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Find me in app/views/pages/index.html.erb</p>
+<div class="jumbotron">
+  <h1>Under Construction</h1>
+  <p class="lead">Hey peeps! Thank you for drop by to my website. Unfortunately, I'm still working on redesigning the whole architecture for my website and expected to be out soon. So make sure you come back later.</p>
+</div>
 
 <% if user_signed_in? %>
   My role is <%= current_user.role %><br />
   <%= link_to "logout", destroy_user_session_path, method: "delete" %>
-<% else %>
-  <%= link_to "login", login_path %><br />
-  <%= link_to "register", register_path %>
+<%# else %>
+  <%#= link_to "login", login_path %><br />
+  <%#= link_to "register", register_path %>
 <% end %>
